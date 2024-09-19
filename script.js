@@ -1,9 +1,3 @@
-//1. Estrutura da Página: Header: Título da receita (por exemplo, "Bolo de Chocolate"). 
-//Imagem da Receita: Coloque uma imagem representando a receita. Ingredientes: 
-//Crie uma lista de ingredientes necessários para a receita. 
-//Modo de Preparo: Utilize uma lista numerada para descrever as 
-//etapas do preparo. Informações Nutricionais (Opcional): Adicione uma pequena 
-//seção que mostre informações nutricionais como calorias, proteínas, carboidratos, etc.
 const Receita = [
     {
       "id": 1,
