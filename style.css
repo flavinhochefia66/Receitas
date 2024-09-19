@@ -1,0 +1,57 @@
+:root{
+
+--cor-fundo: rgb(59, 59, 59);
+--cor-texto: #FFFFFF;
+--cor-fundo-div: rgb(44, 44, 44);
+--cor-borda: rgb(163, 163, 163);
+}
+
+.white-mode{
+
+    --cor-fundo: rgb(235, 235, 235);
+    --cor-texto: #000000;
+    --cor-fundo-div: rgb(223, 223, 223);
+    --cor-borda: rgb(65, 65, 65);
+}
+
+body{
+
+font-size: 12pt;
+font-family: arial;
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+  
+div{
+
+max-width: 50%;
+border: 1px var(--cor-borda) solid;
+padding: 20px;
+border-radius: 10px;
+background-color: var(--cor-fundo-div);
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+img{
+border-radius: 5px;
+border: 1px var(--cor-borda) solid;
+height: 300px;
+width: 300px;
+margin-bottom: 10%;
+
+}
+p{
+
+margin-top: -5px;
+
+}
+
